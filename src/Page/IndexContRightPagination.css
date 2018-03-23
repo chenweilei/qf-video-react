@@ -1,0 +1,31 @@
+.page{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.page span{
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    color:#000;
+    line-height: 20px;
+    border:1px solid #c4c3c3;
+    margin:0 5px;
+    cursor:pointer;
+}
+.page .prevpage,.page .nextpage{
+    width:60px;
+}
+.page span.hover{
+    background: #ff0012;
+    color:#fff;
+    border:0;
+    width:22px;
+    height:22px;
+}
+
+#pagination{
+  height: 35px;
+  margin-top: 20px;
+}

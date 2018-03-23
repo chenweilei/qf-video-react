@@ -1,0 +1,51 @@
+.qiye{
+    /*background:#eaeeee;*/
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.qiye span{
+    display: inline-block;
+    width:120px;
+    height:46px;
+    color:#333;
+    font-size: 18px;
+    text-align: center;
+    margin-right:0px;
+    float: left;
+    line-height: 46px;
+    cursor: pointer;
+    font-weight: 100;
+}
+.qiye .hover{
+    color:#fff;
+    background:#276dc3;
+}
+.bottom_friend_link{
+    padding-bottom: 30px;
+    background-color: #f6f6f6;
+    padding-top: 30px;
+    min-width: 1200px;
+}
+.bottom_friend_link .btn_content>div{
+  display: none;
+}
+.bottom_friend_link .btn_content>div.active{
+  display: block;
+}
+.bottom_friend_link .btn_content p:nth-child(1){
+    /* display: none; */
+    clear:both;
+    text-align: left;
+}
+.bottom_friend_link .btn_content p a{
+    display: inline-block;
+    padding:0px 25px 26px 0;
+    color:#444;
+    font-size: 16px;
+}
+.bottom_friend_link .btn_content p a:hover{color:#f74c4c;}
+.bottom_part2{
+    background:#276dc3;
+    overflow: hidden;
+    padding-bottom: 50px;
+}

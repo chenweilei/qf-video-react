@@ -1,0 +1,82 @@
+.bottom_part2{
+    background:#276dc3;
+    overflow: hidden;
+    padding-bottom: 50px;
+    min-width: 1200px; 
+}
+.c_base{width: 1100px;margin:0 auto;position: relative;}
+.c_bot_lt{width: 1100px;float: left; position: relative;z-index: 30}
+.c_bot_rg{float: right; position: absolute;top:5px;right:0;}
+
+.c_bot_lt_hd a{
+    display: inline-block;
+    width:64px;
+    height:95px;
+    line-height: 95px;
+    margin-right: 7px;
+    color:#fff;
+    text-align: center;
+    text-decoration:none;
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    font-family:"Microsoft YaHei";
+ }
+/*  .c_bot_lt_hd a:nth-child(13){
+    margin-right: 0px;
+ } */
+ .c_bot_lt_hd a:last-child{
+    margin-right: 0px;
+ }
+.c_bot_lt_hd a.active{
+    background:url(http://www.mobiletrain.org/images/index/bottom_part2.png) no-repeat center top;
+}
+.c_bot_rg{position: absolute;right:0;top:5px;}
+.c_bot_lt ul{padding:1% 0 0; width: 635px; min-height: 163px;}
+.c_bot_lt li{color:#fff;line-height:200%;display:none; font-size: 16px;text-align: left;font-family: "Microsoft YaHei";font-weight: 100;}
+.c_bot_rg li{ float:left; font-size:13px; text-align:center;color:#fff; line-height:18px;padding-top: 35%}
+.c_bot_rg li p{ padding-top:5px;}
+
+.bottom_part2 strong{
+    font-size: 18px;
+    font-weight: 900;
+    color:#edba11;
+    line-height:56px;
+}
+
+
+.bottom_part3{
+    width:100%;
+    background:#143257;
+    box-sizing:border-box;
+    padding:5px 0px 11px;
+    min-width: 1200px;
+}
+
+.c_footer{
+    text-align:center;
+    font-size:13px;
+    line-height:28px;
+    color:#AFAFAF;
+    font-family: "Microsoft YaHei";
+ }
+.c_footer a{padding:0 2px;}
+.c_footer .c_footer_nav a:hover{
+    text-decoration:underline;
+}
+.c_footer_nav{
+    width:100%;
+    text-align: center;
+}
+.c_footer_nav a{
+    font-size:13px;
+    padding:4px;color:#fff;
+}
+.c_footer_nav a:hover{
+    padding:0 4px;
+    color:#ffda0c;
+}
+.c_footer p a{color:#AFAFAF;}
+.c_footer p{font-size:12px;line-height: 14px;}
+.c_bot_lt ul li:nth-child(1){display:list-item;}
+.bottom_part3 .base{padding:0;}
